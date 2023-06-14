@@ -27,12 +27,12 @@ const Home = () => {
     <div className="">
       <HeroSection />
 
-      {/* <Trending
+      <Trending
         heading="Popular"
         option={toggleMenu}
         test={test}
         getData={getPopularMovie}
-      /> */}
+      />
       <Trending
         heading="Top Rated"
         option={toggleMenu}
